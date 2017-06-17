@@ -1,4 +1,7 @@
-.aboutus {
-background: url(../image/kbce_logo.PNG) no-repeat left top fixed; 
-opacity: 0.90;
+body { 	
+	opacity: 0.80;
+}
+
+html {
+	background: url(../image/kbce_logo.PNG) no-repeat left top fixed;
 }
