@@ -1,7 +1,7 @@
-body { 	
+body {
 	opacity: 0.80;
 }
 
-html {
-	background: url(../image/kbce_logo.PNG) no-repeat left top fixed;
+.aboutus {
+	background: url(../image/kbce_logo.PNG) no-repeat left top;
 }
