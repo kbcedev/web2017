@@ -10,4 +10,3 @@ Project to build KBCE website. 2017 version
 1. ssh 로그인
 1. cd clickandbuilds/Drupal/git/web2017
 1. git pull
-1. cp -R . ~/clickandbuilds/Drupal/KBCE_2017/
