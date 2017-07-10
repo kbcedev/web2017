@@ -13,6 +13,14 @@
 </head>
 
 <body>
+		<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=567626093627040";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div>
         <nav class="navbar navbar-default navigation-clean">
             <div class="container">
@@ -52,20 +60,9 @@
                     <div class="contact-clean" style="padding-top:0px;padding-bottom:0px;background-color:#ffffff;width:600;">
                         <form method="post" style="margin-right:0px;margin-left:0px;width:600;max-width:600px;">
                             <h2 class="text-left" style="margin-bottom:5px;">CONTACT</h2>
-                            <p class="lead">f you like to have more information about KBCE (Korean British Cultural Exchange) and its activities,&nbsp;please fill out the form below. </p>
-                            <div class="form-group has-success has-feedback">
-                                <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
-                            <div class="form-group has-error has-feedback">
-                                <input class="form-control" type="email" name="email" placeholder="Email"><i class="form-control-feedback glyphicon glyphicon-remove" aria-hidden="true"></i>
-                                <p class="help-block">Please enter a correct email address.</p>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-primary" type="submit">send </button>
-                            </div>
+                            <p class="lead">If you like to have more information about KBCE (Korean British Cultural Exchange) and its activities,&nbsp;please fill out the form below. </p>
                         </form>
+												<div class="fb-comments" data-href="https://www.facebook.com/KBCE.Official/" data-numposts="5" data-mobile="true" width="100%"></div>
                     </div>
                 </div>
             </div>
