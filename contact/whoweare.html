@@ -18,6 +18,16 @@
 </head>
 
 <body>
+		<!-- Facebook library, recommended to put it right after body-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=190532464351842";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
     <div>
         <nav class="navbar navbar-default navigation-clean">
             <div class="container">
@@ -54,26 +64,14 @@
                 </div>
                 <div class="col-lg-4 col-md-5">
                     <div class="contact-clean" style="padding-bottom:0px;background-color:#ffffff;padding-top:0px;"></div>
-                    <form method="post" style="max-width:600px;">
                         <h2 class="text-left" style="margin-bottom:5px;color:#eb4221;"><strong>CONTACT</strong></h2>
-                        <p class="lead" style="font-size:14px;">If you like to have more information about KBCE (Korean British Cultural Exchange) and its activities,&nbsp;please fill out the form below. </p><img class="img-responsive" src="../assets/img/who-we-are_02.jpg" style="margin-top:10px;margin-bottom:10px;">
-                        <div
-                        class="form-group has-success has-feedback">
-                            <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
-                <div class="form-group has-error has-feedback">
-                    <input class="form-control" type="email" name="email" placeholder="Email"><i class="form-control-feedback glyphicon glyphicon-remove" aria-hidden="true"></i>
-                    <p class="help-block">Please enter a correct email address.</p>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="8" name="message" placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-primary" type="submit" style="background-color:#202780;">SEND </button>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
+                        <p class="lead" style="font-size:14px;">If you like to have more information about KBCE (Korean British Cultural Exchange) and its activities,&nbsp;please comment below. </p>
+                        <div class="form-group has-success has-feedback">
+                        		<div class="fb-comments" data-href="http://kbce.org.uk" data-numposts="5"></div>
+                        </div>
+            		</div>
+        		</div>
+    		</div>
     </div>
     <footer>
         <h5>© 2017 <span style="color:#eb4221"><b>KBCE</b></span> All right reserved</h5></footer>
@@ -81,7 +79,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="../assets/js/script.min.js"></script>
 </body>
 
 </html>
