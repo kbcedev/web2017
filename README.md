@@ -8,5 +8,5 @@ Project to build KBCE website. 2017 version
 
 # 1and1 hosting, Drupal 사용시
 1. ssh 로그인
-1. cd clickandbuilds/Drupal/git/web2017
+1.cd KBCE/web2017
 1. git pull
